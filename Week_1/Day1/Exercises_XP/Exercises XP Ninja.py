@@ -4,11 +4,21 @@ my_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 print(len(my_text))
 
 #Exercise 5: Longest word without a specific character Instructions
-word = input("Enter a word without A: ")
-while True: 
-    if "A" in word :
-while "A" in word :
-    word = input("Enter a word without A: ")
-print("congratulations")
+longest_sentence = ""
+while True : 
+    sentence = input('Enter a sentence: ')
+    if "a" in sentence.lower() :
+        print("try again")
+        
+    elif len(sentence) > len(longest_sentence) :
+        longest_sentence = sentence
+        print("congratulations")
+    else:
+        print("Sentence not longer than the current longest. Try again!")
 
-#
+        
+        
+
+
+
+# Each time a user successfully sets a new longest sentence, print a congratulations message.
