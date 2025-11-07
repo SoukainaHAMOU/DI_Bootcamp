@@ -17,8 +17,4 @@ while True :
         print("Sentence not longer than the current longest. Try again!")
 
         
-        
-
-
-
-# Each time a user successfully sets a new longest sentence, print a congratulations message.
+    
