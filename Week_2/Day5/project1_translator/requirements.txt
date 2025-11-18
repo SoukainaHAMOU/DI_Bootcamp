@@ -1,0 +1,9 @@
+Flask
+psycopg2
+python-dotenv
+gTTS
+flask-cors
+psycopg2-binary
+psycopg
+translate
+
