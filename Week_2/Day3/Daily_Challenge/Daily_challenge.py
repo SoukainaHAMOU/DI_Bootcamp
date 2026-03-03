@@ -75,12 +75,3 @@ circles = [c1, c2, c3, Circle(radius=2)]
 sorted_circles = sorted(circles)
 print("Sorted circles by radius:", sorted_circles)
 
-import turtle
-
-def draw_circle(circle):
-    t = turtle.Turtle()
-    t.circle(circle.radius * 10)  # scale up for visibility
-    turtle.done()
-
-# Example: draw the largest circle
-draw_circle(max(circles))

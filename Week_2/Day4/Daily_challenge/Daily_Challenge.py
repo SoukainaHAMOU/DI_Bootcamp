@@ -59,3 +59,36 @@ class TextModification(Text):
 
     def remove_special_characters(self):
         return re.sub(r'[^A-Za-z0-9 ]+', '', self.text)
+
+# Example usage:
+if __name__ == "__main__":
+    # Load text from file
+    text_instance = TextModification.from_file("sample.txt")
+
+    # Display original text
+    print("Original Text:\n", text_instance.text)
+
+    # Word frequency
+    word = "example"
+    freq = text_instance.word_frequency(word)
+    print(f"\nFrequency of the word '{word}':", freq)
+
+    # Most common word
+    most_common = text_instance.most_common_word()
+    print("\nMost common word:", most_common)
+
+    # Unique words
+    unique = text_instance.unique_words()
+    print("\nUnique words:", unique)
+
+    # Remove punctuation
+    no_punct = text_instance.remove_punctuation()
+    print("\nText without punctuation:\n", no_punct)
+
+    # Remove stop words
+    no_stop_words = text_instance.remove_stop_words()
+    print("\nText without stop words:\n", no_stop_words)
+
+    # Remove special characters
+    no_special_chars = text_instance.remove_special_characters()
+    print("\nText without special characters:\n", no_special_chars)
