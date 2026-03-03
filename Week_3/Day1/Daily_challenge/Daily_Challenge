@@ -1,0 +1,57 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "3736e8b8",
+   "metadata": {},
+   "source": [
+    "# Real-World Data Analysis Case Study: Detection of Wild Poliovirus in Germany\n",
+    "\n",
+    "## 1. Case Summary (Step 1)\n",
+    "In 2025, Germany detected **wild poliovirus type 1** in a **wastewater sample** from Hamburg during routine environmental surveillance. This was reported by health agencies including WHO and ECDC.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 2. Role of Data Analysis (Step 2)\n",
+    "\n",
+    "### **Data Analyzed**\n",
+    "- Wastewater samples  \n",
+    "- Genetic sequencing of the virus  \n",
+    "- Epidemiological metadata (location, sampling date, vaccination coverage)\n",
+    "\n",
+    "### **Methods Used**\n",
+    "- Environmental surveillance  \n",
+    "- Genetic sequencing  \n",
+    "- Phylogenetic analysis (comparison with global virus strains)  \n",
+    "- Public health risk assessment  \n",
+    "\n",
+    "### **Key Finding**\n",
+    "The virus was genetically linked to a strain circulating in **Afghanistan**, confirming it was an importation case.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 3. Impact of the Data Analysis (Step 3)\n",
+    "\n",
+    "- Enabled **early detection** before any human cases appeared  \n",
+    "- Supported **rapid risk assessment** by WHO, ECDC, and German health authorities  \n",
+    "- Led to **strengthened surveillance** and increased monitoring in the region  \n",
+    "- Improved **preparedness** for potential vaccination or public health actions  \n",
+    "- Prevented delays that could have increased the risk of local transmission\n",
+    "\n",
+    "Without data analysis, the virus might have gone undetected, significantly slowing public health response.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 4. Conclusion & Significance (Step 4)\n",
+    "This case demonstrates the vital role of **data analysis as an early-warning tool in public health**. By analyzing wastewater and performing genetic sequencing, authorities quickly identified a dangerous pathogen, determined its origin, and took preventive steps. This shows how data-driven decision-making protects populations and supports effective disease control."
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
